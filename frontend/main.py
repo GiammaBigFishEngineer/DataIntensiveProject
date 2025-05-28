@@ -50,7 +50,7 @@ def recommend(author_id: str, top_n: int = 5):
         result.append({
             "product_id": pid,
             "product_name": name[0] if len(name) > 0 else "N/A",
-            "score": float(score)
+            "score": float(score) #stima della preferenza dell'utente
         })
     return result
 
