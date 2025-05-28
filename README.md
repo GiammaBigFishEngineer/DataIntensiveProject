@@ -93,5 +93,3 @@ Frontend attivo su: [http://localhost:5173](http://localhost:5173)
 ## 📄 Licenza
 
 MIT © 2025 - Gianmaria Di Fronzo
-# DataIntensiveProject
-# DataIntensiveProject
