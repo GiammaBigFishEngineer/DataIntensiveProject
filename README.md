@@ -1,3 +1,7 @@
+# Progetto Data Intensive 2025
+Nella seguente repo sono disponibili il file jupyter per l'analisi approfondita degli algoritmi di recommendation eseguita su colab, insieme ad un applicativo web per testare un modello di recommendation system.
+
+
 ![Demo App](./screenshot.png)
 
 # 🧠 Sistema di Raccomandazione Prodotti
