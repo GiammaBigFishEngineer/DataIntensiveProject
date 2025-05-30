@@ -68,13 +68,15 @@ La **similarità coseno** misura quanto due prodotti sono simili osservando l’
 
 Formula della similarità coseno:
 
-\[
+```math
 \text{sim}(A, B) = \frac{A \cdot B}{\|A\| \|B\|}
-\]
+```
 
 Dove:
-- \( A \cdot B \) è il prodotto scalare tra i vettori
-- \( \|A\| \) e \( \|B\| \) sono le norme (lunghezze) dei vettori
+
+- A · B è il prodotto scalare tra i vettori
+- ||A|| e ||B|| sono le norme (lunghezze) dei vettori
+
 
 In codice:
 

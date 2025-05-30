@@ -49,17 +49,17 @@ Si applica `TruncatedSVD` per rappresentare ogni utente e ogni prodotto in uno s
 
 ### 📐 Teoria: SVD
 
-La **Singular Value Decomposition** fattorizza una matrice \( M \) come:
+La **Singular Value Decomposition** fattorizza una matrice M come:
 
-\[
-M \approx U \Sigma V^T
-\]
+```
+M ≈ U * Σ * V^T
+```
 
 Dove:
-- \( M \) è la matrice utente-prodotto
-- \( U \) è la matrice degli **embedding utente**
-- \( \Sigma \) è una matrice diagonale con i **valori singolari**
-- \( V^T \) è la matrice degli **embedding dei prodotti**
+- M è la matrice utente-prodotto
+- U è la matrice degli **embedding utente**
+- Σ è una matrice diagonale con i **valori singolari**
+- V^T è la matrice degli **embedding dei prodotti**
 
 In pratica:
 - Ogni utente e prodotto viene rappresentato in uno spazio latente
@@ -70,8 +70,8 @@ In pratica:
 ### 4. Calcolo delle raccomandazioni
 
 Per un utente specifico:
-- Si genera il suo embedding (\( U \))
-- Si calcola il prodotto scalare tra questo embedding e quelli dei prodotti (\( V^T \))
+- Si genera il suo embedding (U)
+- Si calcola il prodotto scalare tra questo embedding e quelli dei prodotti (V^T)
 - Si ordinano i prodotti non ancora visti per score decrescente
 
 ---
@@ -123,5 +123,5 @@ pip install pandas numpy scikit-learn
 
 ## 📬 Contatti
 
-Realizzato da: **[Gianmaria Di Fronzo]**  
-Email: `gianmaria.difronzo@unibo.it`
+Realizzato da: **[Il Tuo Nome]**  
+Email: `tuo@email.it`

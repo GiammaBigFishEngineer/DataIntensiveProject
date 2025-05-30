@@ -54,15 +54,16 @@ XGBoost è una libreria di **gradient boosting** che crea un insieme di alberi (
 
 Minimizzare una **funzione obiettivo** della forma:
 
-\[
-\mathcal{L}(\theta) = \sum_{i=1}^{n} l(y_i, \hat{y}_i) + \sum_{k=1}^{K} \Omega(f_k)
-\]
+```
+L(θ) = Σ [ l(y_i, ŷ_i) ] + Σ [ Ω(f_k) ]
+```
 
-- \( l \): funzione di perdita (es. MSE)
-- \( \Omega(f) = \gamma T + \frac{1}{2} \lambda ||w||^2 \): termine di regolarizzazione per controllare complessità dell’albero
-- \( f_k \): ciascun albero
-- \( T \): numero di foglie
-- \( w \): punteggi assegnati alle foglie
+Dove:
+- `l` è la funzione di perdita (es. MSE)
+- `Ω(f) = γ * T + (1/2) * λ * ||w||²` è il termine di regolarizzazione per controllare la complessità dell’albero
+- `f_k` è ciascun albero
+- `T` è il numero di foglie
+- `w` sono i punteggi assegnati alle foglie
 
 ---
 
@@ -103,9 +104,9 @@ random_search = RandomizedSearchCV(
 
 Per ogni combinazione, RandomizedSearchCV divide i dati in `k` parti (fold) e valuta:
 
-\[
-\text{Errore medio} = \frac{1}{k} \sum_{i=1}^{k} MSE_i
-\]
+```
+Errore medio = (1/k) * Σ MSE_i
+```
 
 ---
 
@@ -132,5 +133,5 @@ Permettono di confrontare il modello iniziale e quello ottimizzato.
 
 ## 📬 Contatti
 
-Realizzato da: **[Gianmaria Di Fronzo]**  
+Realizzato da: **Gianmaria Di Fronzo**  
 Email: `gianmaria.difronzo@unibo.it`
