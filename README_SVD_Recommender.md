@@ -123,5 +123,5 @@ pip install pandas numpy scikit-learn
 
 ## 📬 Contatti
 
-Realizzato da: **[Il Tuo Nome]**  
-Email: `tuo@email.it`
+Realizzato da: **Gianmaria Di Fronzo**  
+Email: `gianmaria.difronzo@unibo.it`
